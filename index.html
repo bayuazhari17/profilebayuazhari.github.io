@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="style.css" />
+  <title>Portofolio</title>
+</head>
+
+<body>
+  <header id="header" class="">
+    <a href="#" class="logo"></a>
+    <div class="menu-toggle">
+      <input type="checkbox" />
+      <i class="fas fa-bars"></i>
+      <i class="fas fa-times"></i>
+    </div>
+    <ul>
+      <li><a href="#home" class="nav-items home active">Home</a></li>
+      <li><a href="#tentang" class="nav-items tentang">Biodata</a></li>
+      <li><a href="#keanggotaan" class="nav-items keanggotaan">Project</a></li>
+      <li><a href="#artikel" class="nav-items artikel">Artikel</a></li>
+    </ul>
+  </header>
+  <section id="home" class="links">
+    <img src="asset/backgroundaff.png" id="background" alt="" />
+ 
+    <h3 id="text">Selamat Datang</h3>
+
+    <a href="#tentang" id="btn">Mulai</a>
+  </section>
+  <div id="tentang" class="sec links">
+    <h2>Biodata</h2>
+    <p>
+      <br><br>
+      <table>
+        <tr>
+          <th>Nama Lengkap</th>
+          <th class="dots"> : </th>
+          <td>Bayu Azhari</td>
+          <td rowspan="10"><img src="asset/bayu.jpg"></td>
+        </tr>
+        <tr>
+          <th>NPM</th>
+          <th class="dots"> : </th>
+          <td>19312164</td>
+        </tr>
+        <tr>
+          <th>Fakultas</th>
+          <th class="dots"> : </th>
+          <td>Fakultas Teknik dan Ilmu Komputer</td>
+        </tr>
+        <tr>
+          <th>Jurusan</th>
+          <th class="dots"> : </th>
+          <td>Informatika</td>
+        </tr>
+        <tr>
+          <th>Kelas</th>
+          <th class="dots"> : </th>
+          <td>Pemrograman Web IF 20 B</td>
+        </tr>
+
+        <tr>
+          <th>Hobi</th>
+          <th class="dots"> : </th>
+          <td>Bermain Sepak Bola</td>
+        </tr>
+
+        <tr>
+          <th>Email</th>
+          <th class="dots"> : </th>
+          <td>bbbayu158@gmail.com & bayu_azhari@teknokrat.ac.id</td>
+        </tr>
+
+        <tr>
+          <th>Instagram</th>
+          <th class="dots"> : </th>
+          <td><a href="https://www.instagram.com/_bayuazhari/">@_bayuazhari</a></td>
+        </tr>
+
+        <tr>
+          <th>Rencana di Masa Depan</th>
+          <th class="dots"> : </th>
+          <td>Menjadi programmer yang bermanfaat untuk kepentingan Negara</td>
+        </tr>
+
+        <tr>
+          <th>Riwayat Pendidikan</th>
+          <th class="dots">  </th>
+          <td>
+            <ul>
+            <li>
+              <h4>SD</h4>
+              SD Negeri 2 Branti Raya
+            </li>
+            <br />
+            <li>
+              <h4>SMP</h4>
+                  SMP Negeri 1 Natar
+                </li> 
+            </li>
+            <br />
+            <li>
+              <h4>SMK</h4>
+              SMK Yadika Natar
+            </li>
+            <li>
+              <h4>Perguruan Tinggi</h4>
+              Universitas Teknokrat Indonesia<br><br>
+            </li>
+          </ul></td>
+        </tr>
+
+        <tr>
+          <th colspan="4"><i>"Memiliki sedikit pemgalaman namun tidak minim pengetahuan tentang pemrograman web, andoid, hingga game. Dan terus ingin mengembangkan kemampuan dibidang IT."</i></th>
+        </tr>
+        
+      </table>
+    </p>
+  </div>
+
+  <!-- Sertifikat dan Karya -->
+  <div id="keanggotaan" class="sec links">
+    <h2>Sertifikat, Kemampuan serta Karya yang Pernah di Buat</h2>
+    <p>Kemampuan saya dalam bidang komputer ini yaitu mengerti sdikit tentang pemrograman website, adnroid dan game</p>
+    <p>
+      <ul>
+        <li>Sertifikat Pelatihan Mikrotik</li>
+        <li>Membuat Website E-commerce (Cake Bread's)</li>
+        <li>Membuat Website Agen Travel (CloudTravel)</li>
+        <li>Membuat Prototype dan Demo Aplikasi Penjualan Makanan (RIBOMI)</li>
+        <li>Membuat game edukasi (Computer Brain)</li>
+      </ul>
+
+    </p>
+  </div>
+  <!-- Artikel -->
+  <div id="artikel" class="sec links">
+    <h2>Artikel</h2>
+    <p align="center">
+      <video controls width="90%">
+    <source src="asset/vidio.mp4" type="video/mp4" />
+  </video>
+    </p>
+  </div>
+  <footer>
+    <img src="asset/foot-back.png" class="foot-back" alt="" />
+    <h3 id="foot-text">
+      Terima Kasih <br />
+      <span>Create By &copy; BayuAzhari</span>
+    </h3>
+    <img src="asset/foot-front.png" alt="" />
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
